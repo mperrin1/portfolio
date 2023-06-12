@@ -1,0 +1,54 @@
+:root {
+  --color1: rgba(40, 105, 124, 255);
+  --color2: rgba(211, 98, 0, 255);
+  --color3: rgba(248, 164, 11, 255);
+  --color4: rgba(248, 240, 242, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.left-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 52% 48%;
+}
+
+.left-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+}
+.right-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% 10% 10% 0;
+}
+
+.right-grid img {
+  max-width: 80%;
+}
